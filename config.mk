@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# Screenshot
+PRODUCT_PACKAGES += \
+    Screenshot
+
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wallpapers_loc_request_suw=true
